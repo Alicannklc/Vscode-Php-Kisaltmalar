@@ -1,0 +1,189 @@
+{
+
+
+
+   "pubc" : {
+        "prefix" : "pubc",
+        "body" : [
+            "public function __construct($${1:parameters})",
+            "{",
+            "\t$0",
+            "}"
+        ],
+        "description" : "__construct Kisaltma"
+    },
+	
+	
+	   "pubd" : {
+        "prefix" : "pubd",
+        "body" : [
+            "public function __destruct()",
+            "{",
+            "\t$0",
+            "}"
+        ],
+        "description" : "__destruct Kisaltma"
+    },
+
+
+    "eco" : {
+        "prefix" : "eco",
+        "body" : [
+            "echo \"$0\";"
+        ],
+        "description" : "Echo Kisaltma"
+    },
+	
+	
+	
+
+	"ie" : {
+        "prefix" : "ie",
+        "body" : [
+          "if($1){",
+            "\t$2",
+            "}else{",
+            "\t$3",
+            "}"
+            
+        ],
+        "description" : "İf else Kisaltma"
+    },
+	
+	  "vr" : {
+        "prefix" : "vr",
+        "body" : [
+             "var_dump($0);"
+            
+        ],
+        "description" : "var_dump Kisaltma"
+    },
+	
+	
+	  "pr" : {
+        "prefix" : "pr",
+        "body" : [
+             "print_r ($0);"
+            
+        ],
+        "description" : "print_r Kisaltma"
+    },
+    "forev" : {
+        "prefix" : "forev",
+        "body" : [
+            "foreach ($1 as $2) {",
+            "\t$0",
+            "}"
+        ],
+        "description" : "foreach value Kisaltma"
+    },
+    "forek" : {
+        "prefix" : "forek",
+        "body" : [
+            "foreach ($1 as $2 => $3) {",
+            "\t$0",
+            "}"
+        ],
+        "description" : "Foreach Key value Kisaltma"
+    },
+    "inc" : {
+        "prefix" : "inc",
+        "body" : [
+            "include \"$0\";"
+        ],
+        "description" : "include Kisaltma"
+    },
+    "inco" : {
+        "prefix" : "inco",
+        "body" : [
+            "include_once \"$0\";"
+        ],
+        "description" : "include_once Kisaltma"
+    },
+	
+	  "cls" : {
+        "prefix" : "cls",
+        "body" : [
+            "class Classismi", 
+			"{",
+   "\t$0",
+            "}"            
+		],
+        "description" : "Class Kisaltma"
+    },
+	
+    "prif" : {
+        "prefix" : "prif",
+        "body" : [
+            "private function ${1:Fonksiyonismi}{",
+            "\t$0",
+            "}"
+        ],
+        "description" : "private function Kisaltma"
+    },
+
+
+	
+    "prisf" : {
+        "prefix" : "prisf",
+        "body" : [
+            "private static function ${1:Fonksiyonismi}($2){",
+            "\t$0",
+            "}"
+        ],
+        "description" : "private static Kisaltma."
+    },
+    "prof" : {
+        "prefix" : "prof",
+        "body" : [
+            "protected function ${1:Fonksiyonismi}($2){",
+            "\t$0",
+            "}"
+        ],
+        "description" : "protected function Kisaltma"
+    },
+    "prosf" : {
+        "prefix" : "prosf",
+        "body" : [
+            "protected static function ${1:Fonksiyonismi}($2){",
+            "\t$0",
+            "}"
+        ],
+        "description" : "protected static Kisaltma"
+    },
+    "pubf" : {
+        "prefix" : "pubf",
+        "body" : [
+            "public function ${1:Fonksiyonismi}($2){",
+            "\t$0",
+            "}"
+        ],
+        "description" : "Public Funciton Kisaltma."
+    },
+    "pubsf" : {
+        "prefix" : "pubsf",
+        "body" : [
+            "public static function ${1:Fonksiyonismi}($2){",
+            "\t$0",
+            "}"
+        ],
+        "description" : "public static function Kisaltma"
+    },
+    "rqr" : {
+        "prefix" : "rqr",
+        "body" : [
+            "require \"$0\";"
+        ],
+        "description" : "require Kisaltma"
+    },
+	
+	
+    "rqro" : {
+        "prefix" : "rqro",
+        "body" : [
+            "require_once \"$0\";"
+        ],
+        "description" : "require_once Kisaltma"
+    },
+
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Vscode-Php-Kisaltmalar",
+    "displayName": "Php Kisaltmalarim",
+    "description": "Php Kisaltmalari",
+    "version": "1.0.0",
+    "publisher": "alicannklc",
+    "engines": {
+        "vscode": "^0.10.x"
+    },
+    "keywords": [
+        "Vscode",
+        "PHP",
+        "Snippets",
+        "Php Kisaltmalari"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Alicannklc/Vscode-Php-Kisaltmalar.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "img/php.jpg",
+    "galleryBanner": {
+        "color": "#b345f1",
+        "theme": "dark"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./phpkisalt/snippets.json"
+            }
+        ]
+    }
+}
